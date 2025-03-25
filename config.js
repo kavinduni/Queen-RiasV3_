@@ -10,7 +10,7 @@ let config = {
     botName: process.env.BOT_NAME || "Rias Gremory V3",
     exifPack: process.env.EXIF_PACK || "RIAS V3 LOVES",
     exifAuthor: process.env.EXIF_AUTHOR || "Toxxic",
-    timeZone: process.env.TIME_ZONE || "Africa/Lagos",
+    timeZone: process.env.TIME_ZONE || "Asia/Colombo",
     presenceStatus: process.env.PRESENCE_STATUS || "unavailable",
     autoRead: process.env.AUTO_READ?.toLowerCase() === "true" || false,
     autoViewStatus: process.env.AUTO_VIEW_STATUS?.toLowerCase() === "true" || false,
